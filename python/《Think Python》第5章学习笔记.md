@@ -36,3 +36,38 @@ if x < 0:
 
 ## 5.9 递归函数的堆栈图（Stack diagrams for recursive functions）
 
+无
+
+## 5.10 无穷的递归（Infinite recursion）
+
+无
+
+## 5.11 键盘输入（Keyboard input）
+
+Python 为我们提供了一个内建函数 `input` 用于从控制台输入，当执行 `input` 函数时，暂停程序的运行，等待用户输入，当用户输入完毕后（按下 Enter 或者 Return），程序继续执行，`input` 函数会将用户输入的字符作为一个字符串。
+
+```python
+>>> text = input()
+What are you waiting for?
+>>> text
+'What are you waiting for?'
+```
+
+`input` 函数还可以将一个提示的字符串作为参数，提示用户应该输入什么。
+
+```python
+>>> name = input('What...is your name?\n')
+What...is your name?
+Arthur, King of the Britons!
+>>> name
+'Arthur, King of the Britons!'
+```
+
+## 5.12 调试（Debugging）
+
+当语法或者运行错误（syntax or runtime error）发生时，错误提示中包含大量信息，但是错误提示经常是冗长的，包含许多不必要的部分。对于我们而言，其中最有用的部分应该是：
+
+- 错误类型
+- 错误发生的行数
+
+值得注意的是，**错误提示虽然指出了错误发生的行数，但是实际中，错误发生的地方可能在前面**（比如前一行）。
