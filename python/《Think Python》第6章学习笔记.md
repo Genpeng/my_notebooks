@@ -18,5 +18,33 @@
 
 ## 6.3 组合（Composition）
 
+无
 
+## 6.4 布尔函数（Boolean functions）
 
+无
+
+## 6.5 更多的递归（More recursion）
+
+无
+
+## 6.6 信仰之跃（Leap of faith）
+
+无
+
+## 6.7 另一个例子（One more example）
+
+无
+
+## 6.8 检查类型（Checking types）
+
+在 Python 中，内建（built-in）函数 `isinstance(...)` 可以判断对象的类型。
+
+```python
+>>> isinstance(5, int)
+True
+```
+
+## 6.9 调试（Debugging）
+
+把一个大的程序分解成小的函数有利于进行调试。
