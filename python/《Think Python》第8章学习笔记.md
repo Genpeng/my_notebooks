@@ -94,7 +94,7 @@ for letter in fruit:
 
 ## 8.9 `in` 运算符（The `in` operator）
 
-`in` 运算符是一种布尔运算符，输入两个字符串，当第一个字符串是第二个字符串的字串时，返回 `True`。
+`in` 运算符是一种布尔运算符，输入两个字符串，当第一个字符串是第二个字符串的子串时，返回 `True`。
 
 ```python
 >>> 'a' in 'banana'
