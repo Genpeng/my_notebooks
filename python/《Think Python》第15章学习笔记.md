@@ -82,3 +82,26 @@ True
 
 ## 15.7 调试（Debugging）
 
+可以用内建函数 `isinstance` 来检查一个对象是否为某个类的实例。
+
+```python
+>>> isinstance(p, Point)
+True
+```
+
+可以用内建函数 `hasattr` 来检查一个对象是否含有某个特定的属性（attribute）。
+
+```python
+>>> hasattr(p, 'x')
+True
+```
+
+除了可以使用 `hasattr` 方法，也可以使用 `try` 语句。
+
+```python
+try:
+    x = p.x
+except AttributeError:
+    x = 0
+```
+
